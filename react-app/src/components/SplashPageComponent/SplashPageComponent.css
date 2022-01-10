@@ -1,0 +1,177 @@
+/* Category Nav CSS*/
+.category-nav {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.category-link {
+    margin: 0 18px;
+    color: #656969;
+}
+
+/* Splage page content CSS*/
+.splash-content {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 60px;
+}
+
+.splash-spacer-left {
+    padding-right: 60px;
+    padding-top: 30px;
+    margin-top: 24px;
+    border-right: 1px solid #DCDEDD;
+    flex-basis: 55%;
+}
+
+.splash-image-link {
+    height: max-content;
+}
+
+.splash-image-link:hover .splash-image-header {
+    text-decoration: underline;
+    color: #037362;
+}
+
+.splash-main-project {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #656969;
+}
+
+.splash-main-image {
+    display: block;
+    width: 100%;
+    max-height: 351.5px;
+}
+
+.splash-main-progress-bar {
+    width: 100%;
+    height: 12px;
+    background-color: #E8E8E8;
+}
+
+.splash-main-progress {
+    height: inherit;
+    background-color: green;
+}
+
+.splash-image-header {
+    padding-top: 18px;
+    padding-bottom: 12px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.splash-image-description {
+    padding-bottom: 24px;
+    font-size: 18px;
+    color: #282828;
+}
+
+.splash-image-author {
+    font-size: 12px;
+    line-height: 18px;
+    color: #656969;
+}
+
+/* Right main image */
+.splash-spacer-right {
+    padding-left: 60px;
+    padding-top: 30px;
+    margin-top: 24px;
+    flex-basis: 45%;
+}
+
+.splash-recommended-projects {
+    min-height: 380px;
+    color: #282828;
+}
+
+.splash-recommended-projects > li:not(:first-child) {
+    padding: 18px 0;
+}
+
+.splash-recommended-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.splash-recommended-content:hover .splash-recommended-title {
+    text-decoration: underline;
+    color: #037362;
+}
+
+.splash-recommended-link {
+    padding-right: 24px;
+    flex-basis: 40%;
+}
+
+.splash-recommended-image {
+    height: 90px;
+    width: 100%;
+}
+
+.splash-recommended-info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.splash-recommended-title {
+    font-size: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-bottom: 6px;
+}
+
+.splash-recommended-title:hover {
+    text-decoration: underline;
+}
+
+.splash-recommended-funded {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #037362;
+}
+
+.splash-recommended-button-container {
+    display: flex;
+    margin-top: 6px;
+}
+
+.splash-recommended-button {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #D1D1D1;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 6px;
+}
+
+.splash-recommended-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.splash-svg {
+    height: 12px;
+    width: 100%;
+}

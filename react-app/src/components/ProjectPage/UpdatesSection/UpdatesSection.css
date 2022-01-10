@@ -1,0 +1,14 @@
+.updates-section {
+  display: block;
+  min-height: 400px;
+  color: #282828;
+}
+
+.grid-row::before, .grid-row::after {
+  content: " ";
+  display: table;
+}
+
+.grid-row::after {
+  clear: both;
+}

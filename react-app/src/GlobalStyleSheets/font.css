@@ -1,0 +1,57 @@
+.font-size--12 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.font-size--13 {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.font-size--14 {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.font-size--16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-size--21 {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.font-size--24 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.lsp-2 {
+  letter-spacing: 0.2px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.medium {
+  font-weight: medium;
+}
+
+.font-weight--400 {
+  font-weight: 400;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.border-top {
+  border-top: 1px solid #DCDEDD;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #DCDEDD;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.border-gray {
+  border: 1px solid #E8E8E8;
+}
+
+.border-gray-500 {
+  border: 1px solid #DCDEDD;
+}
+
+.border-left {
+  border-left: 1px solid #DCDEDD;
+}
+
+.border3px {
+  border-width: 3px;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.radius2px {
+  border-radius: 2px;
+}
+
+.radius-100 {
+  border-radius: 100%;
+}
+
+
+.hover-border-green:hover {
+  border-color: #009E74;
+}

@@ -1,0 +1,137 @@
+/* TODO Add site wide styles */
+@import 'spacers.css';
+@import 'icon.css';
+@import 'button.css';
+@import 'border.css';
+@import 'colors.css';
+@import 'font.css';
+
+:root {
+  --nav-bar-height: 66px;
+  --body-background-color: #F7F7F6;
+  --btn-bg: #fff;
+  --btn-border: rgb(209, 209, 209);
+  --btn-text: rgb(34, 34, 34);
+}
+
+* {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+}
+
+/* a:hover {
+  color: rgb(3, 115, 98);
+} */
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-b {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.grid-container {
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  max-width: 1366px;
+}
+
+.grid-row {
+  margin: 0 -18px;
+}
+
+.bg-grey-100 {
+  background-color: #FBFBFA;
+}
+
+.hover-bg-gray-200:hover {
+  background-color: #F7F7F6;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.clip {
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.float-left {
+  float: left;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.z-1 {
+  z-index: -1;
+}
+
+.transition-600ms {
+  transition: all 600ms;
+}
+
+.shadow-2 {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+}

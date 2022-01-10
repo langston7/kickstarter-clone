@@ -1,0 +1,35 @@
+.soft-black {
+  color: #282828;
+}
+
+.dark-gray-500 {
+  color: rgb(101, 105, 105);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.white {
+  color: #fff;
+}
+
+.navy-500 {
+  color: #95959E;
+}
+
+.navy-700 {
+  color:#282828;
+}
+
+.fill-navy {
+  fill: #656969;
+}
+
+.green {
+  color: #009E74;
+}
+
+.green-hover:hover {
+  color: #009E74;
+}

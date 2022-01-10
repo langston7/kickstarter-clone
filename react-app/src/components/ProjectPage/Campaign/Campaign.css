@@ -1,0 +1,13 @@
+#rte-content h1, #rte-content h2{
+  font-size: 28px;
+  line-height: 50px;
+}
+
+#rte-content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/* #rte-content > * {
+  margin-bottom: 30px;
+} */
