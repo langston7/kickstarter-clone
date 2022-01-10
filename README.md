@@ -1,4 +1,4 @@
-# HandyMan
+# Kickstarter-clone
 *By Eric Mahoney, Tyler Boromeo, Trevin Woods*
 
 Link to: *(https://kickstarter-clone-em.herokuapp.com/)*
