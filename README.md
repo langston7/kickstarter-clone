@@ -2,6 +2,7 @@
 *By Eric Mahoney, Tyler Boromeo, Trevin Woods*
 
 Link to: *(https://kickstarter-clone-em.herokuapp.com/)*
+
 **Table of Contents**
 * [Site Overview](#site-overview)
 * [How to Use](#how-to-use)
